@@ -1,0 +1,37 @@
+body{
+    font-family: 'SF Pro Display', sans-serif;
+   
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 52px 32px;
+  
+}
+
+.cabecalho__logo{
+    width: 30px;
+    height: 30px;
+}
+
+.cabecalho__folio{
+    position: absolute;
+    margin-left: 44.8px;
+    width: 60px;
+   
+
+}
+
+.cabecalho__menu{
+    position: absolute;
+    margin-left: 279px;
+}
+
+/*.principal__linha{
+    position: absolute;
+    left: 120px;
+    top: -15.31px;
+
+}
