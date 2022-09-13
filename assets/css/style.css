@@ -7,31 +7,34 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 52px 32px;
-  
+    padding: 52px 32px;
+   
+   
 }
 
 .cabecalho__logo{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
+ 
 }
 
 .cabecalho__folio{
     position: absolute;
-    margin-left: 44.8px;
-    width: 60px;
-   
-
+    width: 40px;
+    height: 23.7px;
+    padding: 32px;
+    
 }
 
 .cabecalho__menu{
     position: absolute;
-    margin-left: 279px;
+    left: 311px;
+    
 }
 
-/*.principal__linha{
+.cabecalho__background{
     position: absolute;
-    left: 120px;
+    left: 176px;
     top: -15.31px;
-
+   
 }
