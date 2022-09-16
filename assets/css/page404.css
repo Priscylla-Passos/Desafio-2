@@ -1,0 +1,29 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url(../img/Mobile/line-1.svg);
+    background-repeat: no-repeat;
+    background-position: 176px -14.31px;
+   
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.principal__logotipo{
+    width: 50px;
+
+   
+
+}
+.principal__folio{
+   
+
+}
+
+.principal__imagem{
+    gap: 8px;
+}

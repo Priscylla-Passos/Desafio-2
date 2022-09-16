@@ -30,6 +30,8 @@ body{
     left: 311px;
     width: 32px;
     height: 2px;
+    border: none;
+
 }
 .cabecalho__background{
     position: absolute;
@@ -74,8 +76,12 @@ body{
 
 .menu-lateral__fechar{
     position: absolute;
-    padding-left: 304.37px;
     top: 40.37px;
+    left: 304.37px;
+    
+   
+   
+
    
 }
 
