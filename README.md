@@ -9,7 +9,7 @@ Utilizando FlexBox
 
 🛠 Workflow:   
 
-Figma: Folio Agency 1.0 (Community) – Figma
+Figma: Folio Agency 1.0 (Community) – https://www.figma.com/file/bwpRW3OmaEjVpeRNGWTmuv/Folio-Agency-1.0-(Community)?node-id=0%3A1782
 Criar um repositório público.  
 Enviar o link do repositório pra gente por email até sexta-feira, 16/09 no horário da daily.  
  

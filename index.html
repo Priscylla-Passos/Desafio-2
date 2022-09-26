@@ -2,45 +2,52 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Folio. - Hero</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    
+    <title>Folio.| Hero</title>
 </head>
+
+
 <body>
+   <header class="cabecalho">
+      <img src="assets/img/logo_mobile.svg" alt="Logo Folio" class="cabecalho__logo">
+     <button class="cabecalho__menu"></button>
+   </header>
     
-    <header class="cabecalho">
-       <img src="assets/img/Mobile/logo symbol.svg" alt="Logotipo Folio" class="cabecalho__logo">
-       <img src="assets/img/Mobile/folio.svg" alt="Nome Folio" class="cabecalho__folio">
-       <button class="cabecalho__menu"><img src="assets/img/Mobile/burger icon.svg" alt="menu"></button>
-      
-    </header>
-    <nav class="menu-lateral">
-        <img src="assets/img/Mobile/logo symbol.svg" alt="Logotipo" class="menu-lateral__logo">
-        <img src="assets/img/Mobile/folio_branco.svg" alt="nome Folio." class="menu-lateral__folio">
-        <a href="assets/pages/404.html"><img src="assets/img/Mobile/burger icon - x.svg" alt="Retornar" class="menu-lateral__fechar"></a>
-        <a href="assets/pages/work.html" class="menu-lateral__link menu-lateral__link--work">Work</a>
-        <a href="assets/pages/about.html" class="menu-lateral__link menu-lateral__link--about">About</a>
-        <a href="assets/pages/services.html" class="menu-lateral__link menu-lateral__link--services">Services</a>
-        <a href="assets/pages/jobs.html" class="menu-lateral__link menu-lateral__link--jobs">Jobs</a>
-        <img src="assets/img/Mobile/logo-instagram.svg" alt="Logo Instagram" class="logo__instagram">
-        <div class="logo__instagram--borda"></div>
-        <img src="assets/img/Mobile/logo-youtube.svg" alt="Logo Youtube" class="logo__youtube">
-        <img src="assets/img/Mobile/icon-facebook.svg" alt="Logo Facebook" class="logo__facebook">
-        
-    </nav>
-    <script src="index.js"></script>
-    <main class="principal">
-        <section class="textos">
-            <h1 class="texto1">Stand Out from The Crowd.</h1>
-            <p>Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
-        </section>
-        <section class="botao">
-            <a href="assets/pages/recent_work.html"><button class="botao__recent">Recent Work</button></a>
-        </section>
-        <div id="imagem"></div>
-    </main>
+   <main class="corpo">
+      <section class="principal">
+        <h1 class="principal__texto-principal">Stand Out from The Crowd.</h1>
+        <p class="principal__texto-secundario">Agency is a full-service agency, busy designing and building beautiful digital products, brands, and experiences.</p>
+        <a href="#" class="principal__botao">Recent Work</a>
+      </section>
+       <div class="img_background">
+        <img src="assets/img/img_bg_mobile.svg" alt="Monitor" >
+        </div>
+
+
+      <section class="sobre">
+        <h2 class="sobre__texto-principal">We Make Designs that Lead and Inpire.</h2>
+        <div class="sobre__botoes">
+          <a class="sobre__botoes-button-left"><img src="assets/img/bt-left-normal.svg" alt="botão retornar"></a>
+        <a class="sobre__botoes-button-right"><img src="assets/img/bt-arrow-down.svg" alt="botão proximo"></a>
+        <select name="ano" id="sobre__botoes-dropdown">
+          <option value="2020">2020</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+        </select>
+        </div>
+      <section class="sobre__secundario">
+        <img src="assets/img/img-sobre.svg" alt="Monitor e teclado" class="sobre__secundario-imagem">
+        <h3 class="sobre__secundario-texto-principal">A design team building a curated marketplace for UI designers.</h3>
+        <p class="sobre__secundario-texto-secundario">4,404 curated design resources to energize your creative workflow. We're a growing family of 334,531 designers and makers from around the world</p>
+        <a href="#" class="sobre__secundario-botao-contate-nos">Contact Us</a>
+        <img src="assets/img/number-sobre.svg" alt="numero 28" class="sobre__secundario-numero">
+
+      </main>
+
+    
 </body>
 </html>

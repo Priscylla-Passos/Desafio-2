@@ -1,0 +1,21 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between; 
+ } 
+ 
+ .cabecalho__logo{
+     margin-left: 32px;
+     margin-top: 52px;
+ 
+ } 
+ 
+ .cabecalho__menu{
+     width: 32px;
+     height: 12px; 
+     background-image: url(../img/icon-burger.svg);
+     display: inline-block;
+     margin-top: 62px;
+     margin-right: 32px;
+     border: none; 
+ }  
+ 

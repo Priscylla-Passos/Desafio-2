@@ -1,0 +1,33 @@
+
+.principal__texto-principal{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    margin: 47.78px 32px 0px 32px;
+    color: var(--dark);
+}
+
+.principal__texto-secundario{
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 16px;
+    color: var(--text-light);
+    margin: 24px 32px 44px 32px;
+}
+
+.principal__botao{
+    margin: 24px 183px 0 32px ;
+    background: var(--azul);
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 17px 24.5px;
+    text-align: center;
+    color: var(--branco);
+
+}
+.img_background{
+   margin-top: -142px;
+  height: 100hv;
+
+}
