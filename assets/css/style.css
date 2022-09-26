@@ -1,6 +1,7 @@
 @import url(cabecalho.css);
 @import url(principal_home.css);
 @import url(sobre.css);
+@import url(menu_lateral.css);
 
 :root{
     --dark: #232340;
@@ -8,6 +9,7 @@
     --text-light:#606060; 
     --azul:#5468E7;
     --dark-mode:#8B8B8B;
+    --menu-mobile:#595976;
 
     --font-family-padrao: 'Roboto', sans-serif;
 }

@@ -1,0 +1,60 @@
+.menu-lateral{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark);
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/bg_line_menu.svg);
+    background-repeat: no-repeat;
+    background-position: 90px -14.31px;
+
+    position: absolute;
+    right: -100vw;
+    transition: .25s;
+    top: -0%;
+}
+
+.menu-lateral--ativo{
+    right: 0;
+    transition: .25s;
+}
+
+.menu-lateral__cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-lateral__logo{
+    width: 127.2px;
+     margin: 52px 0px 115px 32px;
+}
+
+.menu-lateral--fechar{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 40.37px;
+    margin-right: 25.37px;
+}
+
+.menu-lateral__link{
+    color: var(--menu-mobile);
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0,5px;
+    text-decoration: none;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+
+}
+.menu-lateral__link--ativo{
+  color: var(--branco);  
+}
+
+.menu-lateral__icones-facebook{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 146px 32px 0px 32px;
+}
+
+
